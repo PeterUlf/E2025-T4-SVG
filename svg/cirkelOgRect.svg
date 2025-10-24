@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+
+    <circle cx="50" cy="50" r="40" fill="blue" />
+    <rect width="50" height="50"  x="2" fill="#88ff00" />
+
+    <rect x='10' y='10' width='80' height='50' fill='none' stroke='red' stroke-width='4' />
+
+    <text x='15' y='20' font-size='10' fill='green'>Per Arnoldi</text>
+
+     <text x='15' y='28' font-size='5' fill='orange'>- farvernes konge</text>
+
+
+</svg>
