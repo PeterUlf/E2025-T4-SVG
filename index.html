@@ -94,9 +94,15 @@
         </article>
 
         <article>
-            <h2>6 cirkel i &lt;use&gt; tag</h2>
-            <svg width="100" height="100">
-                <use href="cirkel_med_xml.svg"></use>
+            <div>
+                <h2>7. cirkel i &lt;use&gt; tag</h2>
+                <h3>med et eksternt &lt;symbol&gt;</h3>
+                <p>Filstien finder SVG-filen, og <code>#cirkel</code> vælger symbolets id.</p>
+                <p>Åbn siden via en lokal webserver, fx Live Server.</p>
+            </div>
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="blue" role="img"
+                aria-label="Blå cirkel genbrugt fra en ekstern SVG-fil">
+                <use href="svg/cirkel_symbol.svg#cirkel"></use>
             </svg>
         </article>
 
